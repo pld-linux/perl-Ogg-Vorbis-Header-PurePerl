@@ -29,7 +29,7 @@ fields. (NOTE: This module currently supports only read operations).
 Ten modu³ w za³o¿eniu ma byæ w ca³o¶ci zaimplementowanym w Perlu
 zamiennikiem dla Ogg::Vorbis::Header. Dostarcza zorientowanego
 obiektowo interfejsu do pól informacji i komentarzy Ogg Vorbis.
-(INFORMACJA: Na chwilê obecn± ten modu³ wspiera tylko operacje
+(INFORMACJA: Na chwilê obecn± ten modu³ obs³uguje tylko operacje
 odczytu).
 
 %prep
