@@ -9,7 +9,7 @@ Summary:	Ogg::Vorbis::Header::PurePerl - An object-oriented interface to Ogg Vor
 Summary(pl):	Ogg::Vorbis::Header::PurePerl - zorientowany obiektowo interfejs do odzczytywania informacji Ogg Vorbis
 Name:		perl-Ogg-Vorbis-Header-PurePerl
 Version:	0.07
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -57,6 +57,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
+%dir %{perl_vendorlib}/Ogg
+%dir %{perl_vendorlib}/Ogg/Vorbis/
 %dir %{perl_vendorlib}/Ogg/Vorbis/Header
 %attr(755,root,root) %{_bindir}/ogginfo.pl
 %{perl_vendorlib}/Ogg/Vorbis/Header/*.pm
