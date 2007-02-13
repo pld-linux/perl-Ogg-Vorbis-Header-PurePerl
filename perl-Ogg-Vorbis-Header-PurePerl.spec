@@ -6,7 +6,7 @@
 %define	pdir	Ogg
 %define	pnam	Vorbis-Header-PurePerl
 Summary:	Ogg::Vorbis::Header::PurePerl - An object-oriented interface to Ogg Vorbis information.
-Summary(pl.UTF-8):   Ogg::Vorbis::Header::PurePerl - zorientowany obiektowo interfejs do odzczytywania informacji Ogg Vorbis
+Summary(pl.UTF-8):	Ogg::Vorbis::Header::PurePerl - zorientowany obiektowo interfejs do odzczytywania informacji Ogg Vorbis
 Name:		perl-Ogg-Vorbis-Header-PurePerl
 Version:	0.07
 Release:	2
